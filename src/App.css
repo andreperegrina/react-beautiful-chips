@@ -1,38 +1,155 @@
+html, body, #root {
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(64deg, #9708cc, #0396ff, #ea5455, #002661, #28c76f, #8c1bab);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App > .container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App > .title-container {
+    margin-bottom: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App h1 {
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App .list-cards {
+    width: 100%;
+    max-width: 1240px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-gap: 2rem;
+    justify-items: center;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+    width: 400px;
+    height: 480px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card .title {
+    color: black;
+    padding: 0 1rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.card .subtitle {
+    color: black;
+    opacity: .6;
+    padding: 0 1rem;
+    margin: 0.2rem 0 1rem 0;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card .list-chips {
+    padding: 0 1rem;
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .list-chips .Chip {
+    margin: 0 0.2rem 0.5rem;
+}
+
+.App .form-group label {
+    margin-bottom: 0.5rem;
+}
+
+.App .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.App .form-group .list-chips {
+    padding: 0;
+    margin: 0;
+}
+
+.App input {
+    height: 25px;
+    border-radius: 5px;
+    border-color: rgba(35, 47, 52, 0.12);
+    padding: 0.2rem 0.5rem;
+    outline: none;
 }

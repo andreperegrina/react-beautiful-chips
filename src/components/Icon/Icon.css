@@ -1,0 +1,12 @@
+.Icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon svg{
+    fill: rgba(0, 0, 0, .26);
+}

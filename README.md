@@ -1,3 +1,5 @@
+*Demo:* https://andreperegrina.github.io/react-beautiful-chips/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
