@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-beautiful-chips/static/css/main.2e72a854.chunk.css",
+    "main.js": "/react-beautiful-chips/static/js/main.2333c961.chunk.js",
+    "main.js.map": "/react-beautiful-chips/static/js/main.2333c961.chunk.js.map",
+    "runtime-main.js": "/react-beautiful-chips/static/js/runtime-main.9e24f458.js",
+    "runtime-main.js.map": "/react-beautiful-chips/static/js/runtime-main.9e24f458.js.map",
+    "static/js/2.e41ced51.chunk.js": "/react-beautiful-chips/static/js/2.e41ced51.chunk.js",
+    "static/js/2.e41ced51.chunk.js.map": "/react-beautiful-chips/static/js/2.e41ced51.chunk.js.map",
+    "static/js/3.ef0cf53a.chunk.js": "/react-beautiful-chips/static/js/3.ef0cf53a.chunk.js",
+    "static/js/3.ef0cf53a.chunk.js.map": "/react-beautiful-chips/static/js/3.ef0cf53a.chunk.js.map",
+    "index.html": "/react-beautiful-chips/index.html",
+    "static/css/main.2e72a854.chunk.css.map": "/react-beautiful-chips/static/css/main.2e72a854.chunk.css.map",
+    "static/js/2.e41ced51.chunk.js.LICENSE.txt": "/react-beautiful-chips/static/js/2.e41ced51.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e24f458.js",
+    "static/js/2.e41ced51.chunk.js",
+    "static/css/main.2e72a854.chunk.css",
+    "static/js/main.2333c961.chunk.js"
+  ]
+}
