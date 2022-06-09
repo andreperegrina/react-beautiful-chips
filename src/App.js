@@ -13,7 +13,7 @@ function App() {
         <div className="App">
             <div className="container">
                 <div className='title-container'>
-                    <h1>Beautiful Chips, Awesome use!</h1>
+                    <h1>Beautiful Chips</h1>
                 </div>
                 <div className="list-cards">
                     <div className="card">
